@@ -1,1 +1,29 @@
 
+#include <stm32f4xx.h>
+#define GPIO_BASE_ADDR
+void Init_OnBoard_LEDs(void);
+void Delay_ms(volatile int time_ms);
+int main(void)
+{
+	Init_OnBoard_LEDs();
+	while(1)
+	{
+uint32_t_GPIO_TogglePin(GPIOD,GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_1
+	Delay_ms(2000);
+	}
+}
+
+void Init_OnBoard_LEDs(void)
+{
+	uint32_t _RCC_GPIOD_CLK_ENABLE();
+	uint32_t_GPIO_InitTypeDef BoardLEDs;
+	BoardLEDs.Mode = GPIO_MODE_OUTPUT_PP;
+	BoardLEDs.Pin = GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
+	GPIO_Init(GPIOD, &BoardLEDs);
+}
+void Delay_ms(volatile int time_ms)
+{
+	      int j;
+        for(j = 0; j < time_ms*4000; j++)
+            {}  /* excute NOP for 2ms */
+}
