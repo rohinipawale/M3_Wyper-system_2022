@@ -109,4 +109,8 @@ high transcation cost.
 
 Emerging new market,
 
-Demand for save Equipments.VVVV
+Demand for save Equipments.
+
+
+
+* **BLOCK DIAGRAM**
