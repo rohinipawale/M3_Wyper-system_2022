@@ -3,7 +3,7 @@
 
 The operational speed of a wiper is controlled by a wiper speed control system in accordance with frequencies. The pulse signal is digitally processed to provide a control signal. A wiper driver circuit receives the control signal and adjusts the operational speed or timing in line with it.
 
-* SOFTWARE REQUIREMENTS:
+* **SOFTWARE REQUIREMENTS**:
 
 STM32 CUBE IDE
 
@@ -47,11 +47,11 @@ Assume that the automobile is the microcontroller. If the button is hit, the fir
 
 Windscreen wipers are necessary for maintaining sufficient view for the driver, especially in modern high-speed cars.
 
-* **WHY WIPER SYSTEM:
+* **WHY WIPER SYSTEM**:
 
 To keep the windscreen clean enough to give adequate view at all times.
 
-* WHEN SHOULD USE WIPER SYSTEM:
+* **WHEN SHOULD USE WIPER SYSTEM**:
 
 The windshield wipers remove rain and snow from the windshield, while the headlights improve visibility at night.
 
@@ -62,7 +62,7 @@ Mark Anderson invented on 1902
 
 * **DETAIL REQUIREMENTS** :
 
-HIGHLEVEL REQUIREMENTS:
+**HIGHLEVEL REQUIREMENTS**:
 
 * **High Level Requirements	Description**:
 
@@ -93,7 +93,7 @@ Low Level Reqiurements	Description	Status
 
 * **SWOT ANALYSIS**
 
-* ****STRENGTH**: 
+* ****STRENGTH****: 
 
 Low Budget,
 
