@@ -20,12 +20,13 @@ USB ST-LINK with three separate interfaces and re-enumeration capability.
 Virtual Com port Debug port (with new order code only)
 Large-scale storage (with new order code only)
 Board power is supplied through USB or an external 5 V supply source.
-3 V and 5 V external application power supply
+3 V and 5 V external application power supply.
 
 USES:
 This Microcontroller is utilised in printing and scanning machines ,heat ventilation, air conditioning, and security systems.
 This module can be found in a variety of household products.
-WORKING PRINCIPLE
+
+WORKING PRINCIPLE:
 Assume that the automobile is the microcontroller. If the button is hit, the first led (red) will turn on, Clicking again  the wiper will start, and the second led (blue) will turn on for a desired rate. If the button is pressed again, the third led (green) will turn on, and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth led (orange), and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click.
 
 
@@ -46,13 +47,17 @@ DETAIL REQUIREMENTS :
 HIGHLEVEL REQUIREMENTS:
 
 High Level Requirements	Description:
+
 1	Programming language(C language)
 2	Arm based microcontroller(STM32F40VGT6)
 3	operating system(Windows)
 4	RAM(Min 4GB)
 5	Hard Disk(Min 250GB)
-LOWLEVEL REQUIREMENTS
+
+
+LOWLEVEL REQUIREMENTS:
 Low Level Reqiurements	Description	Status
+
 1	ON-Ignition key	Implemented
 2	Press Multi-functional button	Implemented
 3	4 Different Color Leds	Implemented
@@ -62,13 +67,13 @@ Low Level Reqiurements	Description	Status
 SWOT ANALYSIS
 
 STRENGTH: 
-Low Budget
-REputation is Good
+Low Budget,
+REputation is Good.
 
 WEAKNESS:
-structural interia
-high transcation cost
+structural interia,
+high transcation cost.
 
 OPPRONUNTIES:
-Emerging new market
-Demand for save Equipments
+Emerging new market,
+Demand for save Equipments.
