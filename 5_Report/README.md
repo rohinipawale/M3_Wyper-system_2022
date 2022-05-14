@@ -116,3 +116,6 @@ Demand for save Equipments.
 * **BLOCK DIAGRAM**
 
 ![image](https://user-images.githubusercontent.com/101467894/168442806-dfb4b395-c578-45e9-bca8-e6f19766bd0d.png)
+
+* **FLOW CHART**
+
