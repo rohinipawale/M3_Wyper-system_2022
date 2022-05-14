@@ -99,13 +99,13 @@ Low Budget,
 
 REputation is Good.
 
-* ****WEAKNESS**:
+* ****WEAKNESS****:
 
 structural interia,
 
 high transcation cost.
 
-* **OPPRONUNTIES**:
+* **OPPRONUNTIES****:
 
 Emerging new market,
 
